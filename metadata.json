@@ -1,0 +1,8 @@
+{
+  "name": "سلم التقدم",
+  "description": "تطبيق تعليمي تفاعلي لطالبات الصف الثامن لمنهاج تقنية المعلومات - الوحدة الأولى: تنظيم البيانات ومشاركتها عبر الإنترنت",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

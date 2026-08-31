@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Tajawal', 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', 'Tajawal', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Accessible Font Size Adjustments */
+.font-size-normal {
+  font-size: 16px;
+}
+
+.font-size-large {
+  font-size: 17.5px;
+}
+
+.font-size-large p,
+.font-size-large span,
+.font-size-large button,
+.font-size-large input {
+  font-size: 1.08em;
+}
+
+.font-size-xl {
+  font-size: 19px;
+}
+
+.font-size-xl p,
+.font-size-xl span,
+.font-size-xl button,
+.font-size-xl input {
+  font-size: 1.18em;
+}
+
+/* Eye Care Warm Mode (مريح للعين - مرشح الضوء الأزرق والوهج) */
+.theme-eye-care {
+  background-color: #f7f3e8 !important;
+  color: #3b3323 !important;
+}
+
+.theme-eye-care .app-main-layout {
+  background-color: #f7f3e8 !important;
+}
+
+.theme-eye-care header {
+  background-color: #fcf9f2 !important;
+  border-bottom-color: #e2d7c0 !important;
+}
+
+.theme-eye-care .bg-white {
+  background-color: #fdfbf7 !important;
+  border-color: #e8ded0 !important;
+}
+
+.theme-eye-care .bg-sky-50 {
+  background-color: #f7f3e8 !important;
+}
+
+.theme-eye-care .bg-slate-50,
+.theme-eye-care .bg-slate-100 {
+  background-color: #efe7d5 !important;
+}
+
+.theme-eye-care .border-slate-100,
+.theme-eye-care .border-slate-200 {
+  border-color: #e2d7c0 !important;
+}
+
+/* Dark Mode (الوضع الليلي الهادئ) */
+.theme-dark {
+  background-color: #0b0f19 !important;
+  color: #e2e8f0 !important;
+}
+
+.theme-dark .app-main-layout {
+  background-color: #0b0f19 !important;
+}
+
+.theme-dark header {
+  background-color: #131b2e !important;
+  border-bottom-color: #23304d !important;
+}
+
+.theme-dark .bg-white {
+  background-color: #131b2e !important;
+  border-color: #23304d !important;
+  color: #f1f5f9 !important;
+}
+
+.theme-dark .bg-sky-50 {
+  background-color: #0b0f19 !important;
+}
+
+.theme-dark .bg-slate-50,
+.theme-dark .bg-slate-100 {
+  background-color: #1a243b !important;
+  border-color: #2b3b5e !important;
+}
+
+.theme-dark .border-slate-100,
+.theme-dark .border-slate-200 {
+  border-color: #23304d !important;
+}
+
+.theme-dark .text-slate-900,
+.theme-dark .text-slate-800 {
+  color: #f8fafc !important;
+}
+
+.theme-dark .text-slate-700,
+.theme-dark .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+.theme-dark .text-slate-500,
+.theme-dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+/* Custom scrollbar for data tables and slide presentations */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
